@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "service-desk-analytics"
+version = "1.0.0"
+description = "Pipeline sintético de indicadores de Service Desk, SLA e tempos de atendimento."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "openpyxl>=3.1,<4",
+  "pandas>=2.2,<4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+service-desk-report = "service_desk_analytics.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
