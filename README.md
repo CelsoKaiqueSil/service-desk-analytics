@@ -1,16 +1,22 @@
 # Service Desk Analytics
 
-[Baixar Excel sintetico de exemplo](docs/examples/service_desk.xlsx) · [Historico de mudancas](CHANGELOG.md)
+[![CI](https://github.com/CelsoKaiqueSil/service-desk-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/CelsoKaiqueSil/service-desk-analytics/actions/workflows/ci.yml)
 
-![Previa analitica dos indicadores sinteticos](docs/images/preview.png)
+**Uma leitura clara do atendimento.** Indicadores de SLA, backlog, primeira
+resposta e resolução, com metodologia explícita e detalhamento por chamado.
 
-**Problema:** produzir indicadores de atendimento sem contar tickets repetidos ou
-confundir ausencia de informacao com violacao de SLA.
+[Baixar Excel de exemplo](docs/examples/service_desk.xlsx) ·
+[Modelo Power BI](powerbi/README.md) ·
+[Executar](#executar) · [Regras de cálculo](#regras-auditaveis)
 
-- Amostra reproduzivel: 8 chamados, 6 resolvidos, backlog 2 e SLA 4/6 (66,67%).
-- Excel com graficos, detalhe, metodologia e controle de rejeicoes.
-- [Projeto Power BI](powerbi/README.md): modelo estrela, DAX e duas paginas;
-  validacao nativa no Desktop ainda pendente. A imagem acima foi gerada em Python.
+## Resultado em uma leitura
+
+![Indicadores da amostra sintética de atendimento](docs/images/preview.png)
+
+<sub>Prévia gerada em Python: 8 chamados, 6 resolvidos, backlog 2 e SLA de 4/6 (66,67%). O Excel contém visão executiva, chamados, segmentações, metodologia e qualidade.</sub>
+
+> **Power BI:** o projeto PBIP inclui modelo estrela, DAX e duas páginas.
+> A homologação nativa no Desktop está pendente. A imagem acima não é uma captura do Power BI.
 
 ## Regras auditaveis
 
