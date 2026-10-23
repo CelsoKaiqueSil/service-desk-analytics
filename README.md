@@ -1,5 +1,7 @@
 # Service Desk Analytics
 
+![Service Desk Analytics: capa ilustrativa de dados e automação](docs/images/cover.png)
+
 [![CI](https://github.com/CelsoKaiqueSil/service-desk-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/CelsoKaiqueSil/service-desk-analytics/actions/workflows/ci.yml)
 
 **Uma leitura clara do atendimento.** Indicadores de SLA, backlog, primeira
