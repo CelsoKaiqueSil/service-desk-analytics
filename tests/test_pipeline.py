@@ -32,4 +32,5 @@ def test_report_contains_methodology(tmp_path: Path) -> None:
         "Categorias",
         "Responsáveis",
         "Metodologia",
+        "Qualidade",
     }

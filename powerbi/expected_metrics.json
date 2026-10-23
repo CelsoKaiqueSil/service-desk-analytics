@@ -1,0 +1,13 @@
+{
+  "opened": 8,
+  "resolved": 6,
+  "closed": 4,
+  "backlog": 2,
+  "sla_met_percent": 66.66666666666666,
+  "response_mean_hours": 1.40625,
+  "response_median_hours": 0.75,
+  "response_p90_hours": 3.3,
+  "solution_mean_hours": 11.472222222222221,
+  "solution_median_hours": 4.5,
+  "solution_p90_hours": 28.166666666666664
+}
