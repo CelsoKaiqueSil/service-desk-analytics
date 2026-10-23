@@ -1,0 +1,154 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "chamados",
+  "position": {
+    "x": 24,
+    "y": 24,
+    "z": 0,
+    "width": 1232,
+    "height": 650,
+    "tabOrder": 48
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FactTickets"
+                    }
+                  },
+                  "Property": "TicketId"
+                }
+              },
+              "queryRef": "FactTickets.TicketId"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FactTickets"
+                    }
+                  },
+                  "Property": "OpenedDateKey"
+                }
+              },
+              "queryRef": "FactTickets.OpenedDateKey"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FactTickets"
+                    }
+                  },
+                  "Property": "ResolvedDateKey"
+                }
+              },
+              "queryRef": "FactTickets.ResolvedDateKey"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FactTickets"
+                    }
+                  },
+                  "Property": "CategoryKey"
+                }
+              },
+              "queryRef": "FactTickets.CategoryKey"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FactTickets"
+                    }
+                  },
+                  "Property": "OwnerKey"
+                }
+              },
+              "queryRef": "FactTickets.OwnerKey"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FactTickets"
+                    }
+                  },
+                  "Property": "Status"
+                }
+              },
+              "queryRef": "FactTickets.Status"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FactTickets"
+                    }
+                  },
+                  "Property": "ResponseHours"
+                }
+              },
+              "queryRef": "FactTickets.ResponseHours"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FactTickets"
+                    }
+                  },
+                  "Property": "SolutionHours"
+                }
+              },
+              "queryRef": "FactTickets.SolutionHours"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FactTickets"
+                    }
+                  },
+                  "Property": "SLAEligible"
+                }
+              },
+              "queryRef": "FactTickets.SLAEligible"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FactTickets"
+                    }
+                  },
+                  "Property": "SLAMet"
+                }
+              },
+              "queryRef": "FactTickets.SLAMet"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

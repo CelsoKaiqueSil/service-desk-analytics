@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
+  "name": "kpi3",
+  "position": {
+    "x": 960,
+    "y": 24,
+    "z": 0,
+    "width": 288,
+    "height": 130,
+    "tabOrder": 984
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FactTickets"
+                    }
+                  },
+                  "Property": "Solucao P90 h"
+                }
+              },
+              "queryRef": "FactTickets.Solucao P90 h"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
