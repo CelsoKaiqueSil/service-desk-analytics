@@ -28,6 +28,9 @@ erDiagram
 
 Geracao: `python scripts/build_powerbi.py`. CSVs, medidas e Power Query ficam
 versionados. Nao ha refresh de API ou publicacao em tenant nesta demonstracao.
+Para repetir a verificacao JSON, instale o extra `.[dev]` e execute
+`python scripts/validate_powerbi.py`; o comando consulta schemas publicos da Microsoft
+e requer acesso HTTPS. Isso nao executa as medidas DAX no Desktop.
 
 ## Estado de validacao
 
